@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #ffecfe;
+}
+header{
+    background: #f7a0e0;
+    color: #f9d9f0;
+    padding: 1rem 0;
+    text-align: center;
+}
+header h1{
+    margin-bottom: 0.5rem;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a{
+    color: #ffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover{
+    color: rgb(202, 120, 177);
+    cursor: pointer;
+}
+
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background: #f4ceea;
+    box-shadow: 0 4px 8px rgb(82, 7, 54);
+}
+
+.container {
+    max-width:800px;
+    margin:0 auto;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+
+.sobre-mim {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #ef9ee9fe;
+}
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #ef9ee9;
+    border-radius: 50%;
+}
+
+.sobre-informacoes h2{
+    margin-bottom: 0.5rem;
+}
+.sobre-informacoes p{
+    font-size: 1rem;
+    color: rgb(60, 0, 44);
+}
+.container h2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #ef9ee9fe;
+}
+
+.cards h2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #ef9ee9fe;
+}
+
+.cards{
+    display: flex;
+    gap: 1rem;
+}
+
+.card{
+    background: radial-gradient(circle, rgb(255, 227, 250)0%, rgba(247, 155, 205, 0.8)50%, rgb(244, 130, 221)100%);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgb(82, 7, 54);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(82, 7, 54);
+}
+
+.foto-projeto {
+    width: 350px;
+    height: 350px;
+    border: 3px solid #ef9ee9;
+
+}
+
